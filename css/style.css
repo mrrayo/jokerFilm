@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500;600;700&display=swap");
+@font-face {
+  font-family: "Gothic Joker";
+  src: url("../fonts/Gothic-Joker.ttf");
+}
 .filmBody {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.63)), url("../img/1060178.png");
   background-position: center center;
@@ -32,4 +36,17 @@
 
 .social-links:hover {
   color: #e74c3c !important;
+}
+
+.bodyContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bodyTitle {
+  font-family: "Gothic Joker";
+  font-size: 120px;
 }/*# sourceMappingURL=style.css.map */

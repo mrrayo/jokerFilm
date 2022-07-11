@@ -1,5 +1,13 @@
 @import "fonts";
 
+@mixin flexcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 .filmBody {
   background-image: linear-gradient(
       to bottom,
@@ -35,4 +43,13 @@
 }
 .social-links:hover {
   color: #e74c3c !important;
+}
+
+.bodyContent {
+  @include flexcol;
+}
+
+.bodyTitle {
+  font-family: $Second-English-Fantasy-Font;
+  font-size: 120px;
 }
