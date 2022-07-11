@@ -47,9 +47,16 @@
 
 .bodyContent {
   @include flexcol;
+  height: 90%;
+  //   background-color: crimson;
 }
 
 .bodyTitle {
   font-family: $Second-English-Fantasy-Font;
-  font-size: 120px;
+  font-size: 160px;
+  opacity: 0.2;
+}
+.bodySubtitle {
+  font-family: $Third-English-Fantasy-Font;
+  opacity: 0.2;
 }
