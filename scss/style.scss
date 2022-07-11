@@ -1,0 +1,32 @@
+@import "fonts";
+
+.filmBody {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.644),
+      rgba(0, 0, 0, 0.63)
+    ),
+    url("../img/1060178.png");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   line-height: 100vh;
+}
+
+.container-border {
+  height: 80vh;
+  border: 1px solid #27ae60;
+}
+.menu-links {
+  font-family: $English-Fantasy-font;
+  font-weight: 700;
+  font-size: 20px;
+}
+.menu-links:hover {
+  color: #27ae60 !important;
+}
